@@ -31,8 +31,8 @@ class Circulo extends JPanel {
 }
 public class DibujoCirculo{
     public static void main(String[] args) {
-        Punto centro = new Punto(2.0f, 2.0f);
-        int radio = 5;
+        Punto centro = new Punto(5.0f, 5.0f);
+        int radio = 10;
         Circulo circulo = new Circulo(centro, radio);
         circulo.dibujaCirculo();
     }

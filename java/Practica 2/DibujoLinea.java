@@ -30,7 +30,7 @@ class Linea extends JPanel {
 }
 public class DibujoLinea{
     public static void main(String[] args) {
-        Punto p1 = new Punto(5.0f, 5.0f);
+        Punto p1 = new Punto(25.0f, 25.0f);
         Punto p2 = new Punto(3.0f, 3.0f);
         Linea linea = new Linea(p1, p2);
         linea.dibujaLinea();
